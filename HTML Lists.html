@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists, Images, Tables & Forms</title>
+</head>
+
+<body>
+    <h2>HTML Lists.</h2>
+    <h3>Ordered Lists.</h3>
+
+    <ol type="i" start="1">
+        <li>Ridge Junior</li>
+        <li>Aaron OChieng</li>
+        <li>Esperanza</li>
+        <li>Nickson</li>
+    </ol>
+
+    <h3>Unordered Lists</h3>
+    <ul type="circle">
+        <li>Oranges</li>
+        <li>Mangoes</li>
+        <li>Apple</li>
+        <li>StrawBerry</li>
+        <li>CherryPick</li>
+    </ul>
+
+    <h4>Definition Lists</h4>
+    <dl>
+        <dt>FBI</dt>
+        <dd>Federal Bureau International</dd>
+        <dt>NYS</dt>
+        <dd>National Youth Service</dd>
+        <dt>CIA</dt>
+        <dd>Confidentiality, Integrity, and Availability</dd>
+    </dl>
+
+    <h5>HTML Images</h5>
+    <img src="image_placeholder.jpg" alt="Image PlaceHolder" width="400" height="400">
+    <img src="https://images.pexels.com/photos/18166547/pexels-photo-18166547/free-photo-of-back-view-of-woman-in-black-dress-on-sea-shore.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        alt="Back view of woman in black dress on sea shore" width="400" height="400">
+
+    <h3>HTML Tables</h3>
+    <table border="1">
+        <caption>Exam Results 2025</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>English</th>
+                <th>Maths</th>
+                <th>Geography</th>
+                <th>History</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ridge</td>
+                <td>89</td>
+                <td>100</td>
+                <td>78</td>
+                <td>89</td>
+            </tr>
+
+            <tr>
+                <td>Esperanza Atieno</td>
+                <td>89</td>
+                <td>100</td>
+                <td>78</td>
+                <td>89</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>English</th>
+                <th>Maths</th>
+                <th>Geography</th>
+                <th>History</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3>HTML Forms</h3>
+    <form>
+        <form action="" method="">
+            <label for="full_name">Full Names:</label>
+            <input type="text" id="full_name" name="full_name" placeholder="Enter Full Name" required>
+            <br><br><br>
+            <label for="email_address">Email Address:</label>
+            <input type="=text" id="email_address" name="email_address" placeholder="Enter Email Address:" <br><br><br>
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+
+            <br><br><br>
+
+            <label for="Languages">Languages</label>
+            <input type="checkbox" name="languages" value="English">English
+            <input type="checkbox" name="languages" value="Kiswahili">Kiswahili
+            <input type="checkbox" name="languages" value="Chemistry">Chemistry
+            <input type="checkbox" name="languages" value="Biology">Biology
+            <input type="checkbox" name="languages" value="Computer Studies">Computer Studies
+
+            <br><br><br>
+
+            <label for="Country">Country</label>
+            <select name="Country" id="Country">
+                <option>--Select Country--</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Namibia">Namibia</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="Djibouti">Djibouti</option>
+                <option value="Tanzania">Tanzania</option>
+            </select>
+
+            <br><br><br>
+            <input type="submit" value="Register">
+            <button> type="reset" </button>
+
+        </form>
+
+</body>
+
+</html>
