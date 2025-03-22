@@ -6,8 +6,7 @@ Welcome to the **PLP Python Assignments** repository! This repository contains v
 - [📌 Python Wk-2 Assignment](#python-wk-2-assignment)
 - [📁 Repository Structure](#-repository-structure)
 - [🚀 How to Use This Repository](#-how-to-use-this-repository)
-- [📌 Contributing](#-contributing)
-- [📞 Contact](#-contact)
+
 
 ## 📌 Python Wk-2 Assignment
 🔎 **To quickly find the Week 2 Python Assignment**, open the file:  
